@@ -1,0 +1,95 @@
+.planet{
+    padding-top: 12px;
+}
+.planet__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f5f5f580;
+}
+.planet__label{
+    font-family: 'Cera Pro';
+    font-style: normal;
+    max-width: 205px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #3D3D3D;
+    margin-bottom: 7px;
+}
+.planet__title{
+    font-family: 'Cera Pro';
+    font-style: normal;
+    max-width: 590px;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 70px;
+    text-transform: uppercase;
+    color: #3D3D3D;
+    margin-bottom: 5px;
+}
+.planet__text{
+    font-family: 'Cera Pro';
+    font-style: normal;
+    max-width: 557px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #727272;
+    margin-bottom: 44px;
+}
+.planet__link{
+    padding: 11px 27px;
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #46A358;
+    border-radius: 6px;
+}
+@media screen and (max-width:1150px) {
+    .planet__container{
+        justify-content: center;
+    }
+    .planet__label{
+        font-size: 11px;
+        line-height: 16px;
+        text-transform: uppercase;
+        color: #3D3D3D;
+        max-width: 140px;
+        margin-bottom: 0;
+    }
+    .planet__title{
+        font-size: 24px;
+        line-height: 29px;
+        max-width: 182px;
+        margin-bottom: 3px;
+    }
+    .planet__text{
+        font-size: 12px;
+        line-height: 18px;
+        max-width: 203px;
+        margin-bottom: 10px;
+    }
+    .planet__link{
+        font-family: 'Cera Pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 14px;
+        text-transform: uppercase;
+        color: #46A358;
+        padding: 0;
+        background: none;
+    }
+    .planet__img{
+        width: 213px;
+        height: 213px;
+        
+    }
+}
